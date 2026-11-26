@@ -6,7 +6,7 @@
 # 활동 4 - 통로 만들기
 
 ```python
-blocks.place(BRICKS, pos(0, 0, 0))
+blocks.place(PLANKS_OAK, pos(0, 0, 0))
 ```
 
 ## 1단계
