@@ -1,17 +1,24 @@
+
 ### @explicitHints true
-### @hideIteration true 
+### @hideIteration true
 
 ```python
 player.say("Hi")
 ```
 
-# Activity 3 - What is the correct number?
+# 활동 3 - 올바른 계산 결과는 무엇일까요?
 
-## Step 1
-Look at each of the tv monitors, calculate the sums using code.
-To use the mathematical value of numbers in a command, quotes should **not** be used. For example:
+## 1단계
+각 모니터에 표시된 계산식을 확인하고 파이썬 코드로 계산하세요.
+
+명령어에서 숫자를 계산할 때는 따옴표를 사용하면 **안 됩니다**.
+
+예를 들어 다음과 같이 작성합니다.
+
 ```python
-player.say(1+1) 
+player.say(1+1)
 ```
 
-When this code is run it gives the result **2**. Work out the correct answers of the sums on the tv monitors and select the corresponding buttons.
+이 코드를 실행하면 채팅창에 계산 결과인 **2**가 출력됩니다.
+
+모니터에 표시된 계산식의 정답을 구한 후, 해당 숫자가 적힌 버튼을 누르세요.
