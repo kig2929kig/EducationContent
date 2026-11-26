@@ -15,5 +15,5 @@ player.say()
 
 코딩 창 왼쪽의 `||player:player||` 그룹에서 `||player: say||` 명령어를 사용하여 올바른 문법을 확인하세요.
 
-#### ~ tutorialhint
+### ~ tutorialhint
 잘못 배치한 문법 기호 블록을 제거하려면 NPC와 대화한 후 **다시 도전** 버튼을 누르세요.
