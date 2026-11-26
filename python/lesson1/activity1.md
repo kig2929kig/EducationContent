@@ -1,16 +1,25 @@
+
 ### @explicitHints true
-### @hideIteration true 
+### @hideIteration true
 
+# 활동 1 - 올바른 명령어는 무엇일까요?
 
-# Activity 1 - Which one is right?
+## 1단계
 
-## Step 1
-Check which one of the commands written on the computer monitors is correct and shows **"Hi"** in the chat when run.
-Press the mouse button on the right side of the monitor in the game if the code runs correctly.
-Click on the hints if you need help.
+컴퓨터 모니터에 적힌 명령어 중 올바른 명령어를 찾으세요.
 
-### ~ tutorialhint 
-The command structure in Minecraft python is:
+코드를 실행했을 때 채팅창에 **"Hi"**가 출력되는지 확인하세요.
+
+정상적으로 실행되면 게임 속 모니터 오른쪽에 있는 마우스 버튼을 누르세요.
+
+도움이 필요하면 힌트 버튼을 클릭하세요.
+
+### ~ tutorialhint
+
+마인크래프트 파이썬의 기본 명령어 구조는 다음과 같습니다.
+
 ```python
 command_group.command_name()
 ```
+
+명령어 그룹과 함수 이름을 점(.)으로 연결하고 괄호를 사용합니다.
