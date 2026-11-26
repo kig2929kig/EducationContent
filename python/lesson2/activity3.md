@@ -1,19 +1,18 @@
 ### @explicitHints true
-### @hideIteration true 
-# Activity 3 - One step at a time.
+### @hideIteration true
+
+# 활동 3 - 계단 만들기
 
 ```python
-blocks.place(GRASS_BLOCK, pos(0, 0, 0))
-blocks.block_with_data(GRASS_BLOCK, 0)
+blocks.place(GRASS, pos(0,0,0))
 ```
 
-## Step 1
-Write some code to construct a whole staircase, out of **brick blocks** (bricks). You will need to change the **second** and **third** coordinate of the **second** parameter in all of the three `||blocks: place block at position||` commands. You will also need to update the data values in the `||blocks: block with data||` commands. Remember, each data value equals direction with stairs.
+## 1단계
 
-### ~ tutorialhint 
-Look at the walls to see the east, west, north and south directions.
-For data values: 
-0 = W  
-1 = E   
-2 = N  
-3 = S
+금 블록 다음 위치부터 벽돌 블록 3개로 계단을 만드세요.
+
+안내판을 참고하여 각 블록의 상대 좌표를 지정하세요.
+
+### ~ tutorialhint
+
+X는 동서 방향, Y는 높이, Z는 남북 방향입니다. 계단을 만들 때 이동 방향과 높이를 함께 고려하세요.
