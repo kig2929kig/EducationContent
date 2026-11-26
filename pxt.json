@@ -264,14 +264,15 @@
         "computing/unit-2/lesson-1.md",
         "computing/unit-2/lesson-2.md",
         "computing/unit-2/lesson-3.md",
-        "computing/unit-3/lesson-1.md"
+        "computing/unit-3/lesson-1.md",
+        "main.py"
     ],
     "targetVersions": {
-        "target": "1.6.8",
+        "target": "2.2.14",
         "targetId": "minecraft"
     },
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "pyprj"
 }
