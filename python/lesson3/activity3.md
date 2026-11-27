@@ -1,34 +1,41 @@
+
 ### @explicitHints true
 
-# Activity 3 - Are my calculations off?
+# 활동 3 - 계산이 잘못되었을까?
 
 ```python
 player.say("hi")
 item +=1
 ```
 
-## Step 1
-Look at tv monitor number 1 and calculate the sum shown by creating a new variable called **cost**. Run the code to show the total cost in the chat.
-Press the matching button for that total. 
+## 1단계
+1번 TV 모니터를 확인하세요. **cost**라는 새로운 변수를 생성하고, 화면에 표시된 값의 합계를 계산하세요.
 
-## Step 2
-Look at tv monitor number two. You now need to add a new crop, **pumpkin**. Do this by creating a variable called **pumpkin** and then set its value
-as a formula that is the difference between the variables **berries** and **apple**. Add the new variable **pumpkin** to the variable **cost**. Then run the 
-code and press the correct button. 
+코드를 실행하여 채팅창에 전체 비용을 출력한 후, 계산 결과와 일치하는 버튼을 누르세요.
 
-## Step 3 
-Look at the last tv monitor, the value of the crops **apple** and **melon** have now changed. **Apple** has increased in price by **2**, 
-and **melon** has decreased in price by **3**. Account for this change in your code by using **+=** and **-=** operators.
+## 2단계
+2번 TV 모니터를 확인하세요. 이제 새로운 작물인 **pumpkin(호박)**을 추가해야 합니다.
+
+**pumpkin**이라는 새로운 변수를 생성하고, 변수 **berries**와 **apple**의 차이를 계산하는 수식을 값으로 저장하세요.
+
+새로운 변수 **pumpkin**의 값을 변수 **cost**에 더하세요. 코드를 실행한 후 올바른 버튼을 누르세요.
+
+## 3단계
+마지막 TV 모니터를 확인하세요. 작물 **apple(사과)**과 **melon(수박)**의 가격이 변경되었습니다.
+
+**apple**의 가격은 **2만큼 증가**했고, **melon**의 가격은 **3만큼 감소**했습니다.
+
+**+=** 연산자와 **-=** 연산자를 사용하여 가격 변동 사항을 코드에 반영하세요.
 
 ```template
 apple = 10
 melon = 15
 berries = 20
 potato = 2
-//Replace the lines below with your code #
-//replace with pumpkin variable | Step 2
-//apple change                          | Step 3
-//melon change                          | Step 3
-//cost variable        | Step 1
+//아래 줄을 여러분이 작성한 코드로 바꾸세요. #
+//pumpkin 변수 생성 | 2단계
+//apple 가격 변경 | 3단계
+//melon 가격 변경 | 3단계
+//cost 변수 생성 | 1단계
 player.say(cost)
-``` 
+```
