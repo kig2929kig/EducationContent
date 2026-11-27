@@ -15,7 +15,7 @@ blocks.place(PLANKS_OAK, pos(0, 0, 0))
 
 금 블록 다음 위치부터 알맞은 블록을 하나씩 배치하세요.
 
-`||blocks: place block at position||` 명령어를 사용하여 블록의 종류와 상대 좌표를 변경하세요.
+`||blocks: place block at position||` 명령어를 사용하여 블록의 종류(PLANKS_OAK)와 상대 좌표를 변경하세요.
 
 높이는 일정하게 유지하고 이동 방향의 좌표를 변경하면서 블록을 연속으로 배치하세요.
 
