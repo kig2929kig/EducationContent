@@ -265,8 +265,7 @@
         "computing/unit-2/lesson-2.md",
         "computing/unit-2/lesson-3.md",
         "computing/unit-3/lesson-1.md",
-        "main.py",
-        "python.ts"
+        "main.py"
     ],
     "targetVersions": {
         "target": "2.2.14",
@@ -275,5 +274,5 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj"
 }
