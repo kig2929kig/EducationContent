@@ -1,5 +1,7 @@
+
 ### @explicitHints true
-# Activity 2 - Spin cycle.
+
+# 활동 2 - 세탁기 회전시키기
 
 ```python
 for i in range(2):
@@ -11,29 +13,34 @@ agent.turn(LEFT)
 
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will pick up the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
-the machine to place the clean laundry on the other side of where the dirty laundry was.
+## 1단계
+**파트 1:** 에이전트가 더러운 빨래를 수집하고 **앞으로** 이동하여 세탁기 안으로 들어가도록 코드를 작성하세요.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
-code.
+세탁기 안에서 왼쪽으로 **20번** 회전한 후 밖으로 나오도록 하세요.
 
-### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name, so rename the second loop. 
-To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
+깨끗해진 빨래를 처음 더러운 빨래가 있던 위치의 반대쪽에 놓으세요.
+
+## 2단계
+**파트 2:** 기존 코드를 수정하여 에이전트가 동일한 세탁 작업을 **3번** 반복하도록 하세요.
+
+이를 위해 기존의 모든 코드 앞에 `||loops: for||` 반복문을 추가하세요.
+
+### ~ tutorialhint
+이번 활동에서는 두 반복문에 동일한 반복 변수를 사용하지 않도록 두 번째 반복문의 변수 이름을 변경하세요.
+
+여러 줄의 코드를 한꺼번에 들여쓰기하려면 들여쓰기할 코드 전체를 선택한 후 키보드의 **Tab** 키를 누르세요.
 
 ```template
-//Replace the lines below with your code #    
-//loop number 2 set to 3                              | Part 2
+//아래 줄을 여러분이 작성한 코드로 바꾸세요. #
+//두 번째 반복문의 반복 횟수를 3으로 설정 | 파트 2
 agent.collect_all()
 agent.move(FORWARD, 7)
 agent.drop_all(FORWARD)
-//loop number 1                              | Part 1
-//make the Agent turn left 20 times          | Part 1 
-//end of loop 1
-//make the Agent collect all                 | Part 1          
-//make the Agent move back                   | Part 1
-//make the Agent drop everything to the left | Part 1
-//end of loop 2
+//첫 번째 반복문 작성 | 파트 1
+//에이전트를 왼쪽으로 20번 회전시키기 | 파트 1
+//첫 번째 반복문 종료
+//에이전트가 모든 아이템을 수집하도록 하기 | 파트 1
+//에이전트를 뒤로 이동시키기 | 파트 1
+//에이전트가 모든 아이템을 왼쪽에 떨어뜨리도록 하기 | 파트 1
+//두 번째 반복문 종료
 ```
