@@ -6,7 +6,7 @@
 # 활동 1 - 올바른 블록 배치하기
 
 ```python
-blocks.place(GRASS_BLOCK, pos(0, 0, 0))
+blocks.place(GRASS, pos(0, 0, 0))
 ```
 
 ## 1단계
