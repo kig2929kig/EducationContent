@@ -1,5 +1,7 @@
+
 ### @explicitHints true
-# Activity 3 - Cleaning up.
+
+# 활동 3 - 카펫 청소하기
 
 ```python
 for i in range(2):
@@ -9,30 +11,35 @@ agent.move(FORWARD, 5)
 agent.drop_all(FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will go over every block of the small carpet and pick up the dirt.
-### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name.
+## 1단계
+**파트 1:** 에이전트가 작은 카펫의 모든 블록을 지나가면서 먼지를 수집하도록 코드를 작성하세요.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for the larger carpet. Do this by repeating the code **3** times,
-using a `||loops:for||` loop. At the end try to make the Agent drop all of the dirt in the trash to its **right**. 
-### ~ tutorialhint 
-Remember that you will need to use double indentation in your code.
+### ~ tutorialhint
+이번 활동에서는 두 반복문에 동일한 반복 변수 이름을 사용하지 않도록 주의하세요.
+
+## 2단계
+**파트 2:** 기존 코드를 수정하여 에이전트가 더 큰 카펫에서도 동일한 청소 작업을 수행하도록 하세요.
+
+`||loops:for||` 반복문을 사용하여 기존 코드를 **3번** 반복 실행하세요.
+
+청소가 끝나면 에이전트가 수집한 모든 먼지를 **오른쪽**에 있는 쓰레기통에 버리도록 하세요.
+
+### ~ tutorialhint
+중첩 반복문을 작성할 때는 코드에 두 단계의 들여쓰기가 필요하다는 점을 기억하세요.
 
 ```template
-//Replace the lines below with your code #    
-//loop number 3                                 | Part 2
-//loop number 1                        | Part 1
+//아래 줄을 여러분이 작성한 코드로 바꾸세요. #
+//세 번째 반복문 작성 | 파트 2
+//첫 번째 반복문 작성 | 파트 1
 agent.collect_all()
 agent.move(FORWARD, 1)
-//end of loop 1
+//첫 번째 반복문 종료
 agent.move(RIGHT, 1)
-//loop number 2                        | Part 1
-//make the Agent collect all           | Part 1  
-//make the Agent move back             | Part 1  
-//end of loop 2
-//make the Agent move right                     | Part 2
-//end of loop 3  
-//make the Agent drop all to the right          | Part 2  
+//두 번째 반복문 작성 | 파트 1
+//에이전트가 모든 아이템을 수집하도록 하기 | 파트 1
+//에이전트를 뒤로 이동시키기 | 파트 1
+//두 번째 반복문 종료
+//에이전트를 오른쪽으로 이동시키기 | 파트 2
+//세 번째 반복문 종료
+//에이전트가 모든 아이템을 오른쪽에 떨어뜨리도록 하기 | 파트 2
 ```
