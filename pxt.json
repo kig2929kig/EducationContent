@@ -265,7 +265,8 @@
         "computing/unit-2/lesson-2.md",
         "computing/unit-2/lesson-3.md",
         "computing/unit-3/lesson-1.md",
-        "main.py"
+        "main.py",
+        "tutorial-info-cache.json"
     ],
     "targetVersions": {
         "target": "2.2.14",
