@@ -11,7 +11,7 @@ blocks.place(GRASS, pos(0, 0, 0))
 
 ## 1단계
 
-`||blocks: place block at position||` 명령어를 사용하여 지정된 위치에 **잔디 블록**과 **벽돌 블록**을 배치하세요.
+`||blocks: place block at position||` 명령어를 사용하여 지정된 위치에 **잔디 블록(GRASS)**과 **벽돌 블록(BRICKS)**을 배치하세요.
 
 첫 번째 매개변수를 배치하려는 블록의 종류로 변경하세요.
 
