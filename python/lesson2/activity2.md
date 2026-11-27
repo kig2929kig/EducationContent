@@ -13,7 +13,7 @@ blocks.place(REDSTONE_LAMP, pos(0, 0, 0))
 
 서로 다른 높이에 레드스톤 램프 3개를 설치하세요.
 
-`||blocks: place block at position||` 명령어를 사용하여 지정된 위치에 레드스톤 램프를 배치하세요.
+`||blocks: place block at position||` 명령어를 사용하여 지정된 위치에 레드스톤 램프(REDSTONE_LAMP)를 배치하세요.
 
 플레이어의 위치를 기준으로 Y축 좌표를 변경하면 서로 다른 높이에 블록을 배치할 수 있습니다.
 
