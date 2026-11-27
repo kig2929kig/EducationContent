@@ -1,31 +1,40 @@
+
 ### @explicitHints true
 
-# Activity 2 - Dietary requirement.
+# 활동 2 - 식단에 맞는 사료 만들기
 
 ```python
 blocks.place()
 ```
 
-## Step 1
-Give the **first** dog everything that's already in the predefined list by changing the values of the first **4** `||blocks:place block at position||`
-commands. So that they each place, in order, one of the items in the list. Then give the food from the chest to dog number one.
+## 1단계
+**첫 번째** 강아지에게 미리 정의된 리스트에 있는 모든 음식을 주세요.
 
-### ~ tutorialhint 
-To drop items from the hot bar press the [**Q**] key on your keyboard. 
+처음 **4개**의 `||blocks:place block at position||` 명령어를 수정하여 리스트에 있는 각 항목이 순서대로 배치되도록 하세요.
 
-## Step 2
-Give the **second** dog everything that's already in the list with additonal vitamins added. 
-Do this by using the **append** method to add the variable **Vitamins** to the end of the list.
-Then change the value of the last `||blocks: place block at position||` command so that it places the vitamins in the machine, and 
-then give the food to dog number two.
+그런 다음 상자에 있는 음식을 꺼내 첫 번째 강아지에게 주세요.
 
-## Step 3
-Give the **third** dog everything that's already in the list but with no **beef**. 
-Do this by using the **pop** method to remove the variable **Beef** from the list.
-Then give the food to dog number three.
+### ~ tutorialhint
+빠른 실행 슬롯(핫바)에 있는 아이템을 떨어뜨리려면 키보드의 [**Q**] 키를 누르세요.
 
-### ~ tutorialhint 
-With the **pop** method you must use the list position value and **not** its name. 
+## 2단계
+**두 번째** 강아지에게 기존 리스트에 있는 모든 음식과 추가 비타민을 주세요.
+
+**append** 메서드를 사용하여 변수 **Vitamins**를 리스트의 마지막에 추가하세요.
+
+마지막 `||blocks: place block at position||` 명령어를 수정하여 기계에 비타민이 배치되도록 하세요.
+
+그런 다음 완성된 음식을 두 번째 강아지에게 주세요.
+
+## 3단계
+**세 번째** 강아지에게 기존 리스트에 있는 음식 중 **소고기(beef)**를 제외한 모든 음식을 주세요.
+
+**pop** 메서드를 사용하여 리스트에서 변수 **Beef**에 해당하는 항목을 제거하세요.
+
+그런 다음 완성된 음식을 세 번째 강아지에게 주세요.
+
+### ~ tutorialhint
+**pop** 메서드를 사용할 때는 항목의 이름이 **아닌** 리스트의 인덱스(위치 번호)를 사용해야 합니다.
 
 ```template
 Bone = world(-21, 45, -31)
@@ -33,18 +42,18 @@ Beef = world(-21, 45, -29)
 Chicken = world(-21, 45, -27)
 Biscuit = world(-21, 45, -25)
 Vitamins = world(-21, 45, -23)
-// Replace the lines below with your code #   
+// 아래 줄을 여러분이 작성한 코드로 바꾸세요. #
 Dog_Food=[Bone, Beef, Chicken, Biscuit]
-//Add the variable Vitamins to the list using the append method | Step 2
-//Remove the variable Beef using the pop method                          | Step 3
+//append 메서드를 사용하여 리스트에 Vitamins 변수 추가 | 2단계
+//pop 메서드를 사용하여 Beef 항목 제거 | 3단계
 
-blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
-//Change the numerical value of the list below         | Step 1
 blocks.place(REDSTONE_BLOCK, Dog_Food[0])
-//Change the numerical value of the list below         | Step 1
-blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
-//Change the numerical value of the list below         | Step 1
-blocks.place(REDSTONE_BLOCK, Dog_Food[0])   
-//Change the numerical value of the list below                  | Step 2
-blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
+//아래 리스트의 인덱스 값 변경 | 1단계
+blocks.place(REDSTONE_BLOCK, Dog_Food[0])
+//아래 리스트의 인덱스 값 변경 | 1단계
+blocks.place(REDSTONE_BLOCK, Dog_Food[0])
+//아래 리스트의 인덱스 값 변경 | 1단계
+blocks.place(REDSTONE_BLOCK, Dog_Food[0])
+//아래 리스트의 인덱스 값 변경 | 2단계
+blocks.place(REDSTONE_BLOCK, Dog_Food[0])
 ```
