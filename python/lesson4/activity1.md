@@ -1,6 +1,8 @@
+
 ### @explicitHints true
-### @hideIteration true 
-# Activity 1 - Animal categorizing.
+### @hideIteration true
+
+# 활동 1 - 동물 분류하기
 
 ```python
 blocks.place()
@@ -8,27 +10,29 @@ mobs.spawn()
 world(0, 0, 0)
 ```
 
-## Step 1
-Write some code with a list, named **My_list**, of the animals going from **left** to **right** in the Minecraft world. 
-Place **4** more `||mobs:spawn mob at position||` commands after the one that's already given. Use the information from the signs 
-on the pens to complete these commands. 
+## 1단계
+마인크래프트 월드에 있는 동물들을 **왼쪽에서 오른쪽 순서**로 저장하는 **My_list**라는 이름의 리스트를 작성하세요.
 
-### ~ tutorialhint 
-Remember that list positions start from zero. 
+이미 작성되어 있는 명령어 다음에 `||mobs:spawn mob at position||` 명령어를 **4개** 더 추가하세요.
 
-```template 
+각 동물 우리의 안내판에 표시된 정보를 참고하여 명령어를 완성하세요.
+
+### ~ tutorialhint
+리스트의 인덱스는 0부터 시작한다는 점을 기억하세요.
+
+```template
 location1 = world(-2, 40, -11)
 location2 = world(-2, 40, -5)
 location3 = world(-8, 40, -0)
 location4 = world(-13, 40, -5)
 location5 = world(-13, 40, -11)
-//Replace the lines below with your code #   
+//아래 줄을 여러분이 작성한 코드로 바꾸세요. #
 
-//list of animals 
+//동물 리스트 작성
 
 mobs.spawn(My_list[0], location1)
-//spawn the third mob from the list at location2
-//spawn the fifth mob from the list at location3
-//spawn the second mob from the list at location4
-//spawn the fourth mob from the list at location5
+//리스트의 세 번째 동물을 location2 위치에 소환
+//리스트의 다섯 번째 동물을 location3 위치에 소환
+//리스트의 두 번째 동물을 location4 위치에 소환
+//리스트의 네 번째 동물을 location5 위치에 소환
 ```
